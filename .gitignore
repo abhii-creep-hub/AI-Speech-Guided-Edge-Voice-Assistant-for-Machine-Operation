@@ -10,3 +10,8 @@ __pycache__/
 *.pyc
 models/*.keras
 
+
+data/
+
+
+!models/kws_model_abhinav.keras

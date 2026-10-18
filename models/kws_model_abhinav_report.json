@@ -1,0 +1,164 @@
+{
+  "speaker": "abhinav",
+  "training_speakers": [
+    "abhinav"
+  ],
+  "test_speakers": [
+    "abhinav"
+  ],
+  "split_type": "recording-disjoint, stratified",
+  "test_accuracy": 0.2978723404255319,
+  "n_raw_clips": 233,
+  "n_train_clips": 151,
+  "n_validation_clips": 35,
+  "n_test_clips": 47,
+  "class_counts": {
+    "_unknown": 43,
+    "cancel": 20,
+    "confirm": 20,
+    "faster": 20,
+    "halt": 20,
+    "hey_machina": 30,
+    "pause": 20,
+    "resume": 20,
+    "slower": 20,
+    "start": 20
+  },
+  "labels": [
+    "_unknown",
+    "cancel",
+    "confirm",
+    "faster",
+    "halt",
+    "hey_machina",
+    "pause",
+    "resume",
+    "slower",
+    "start"
+  ],
+  "confusion_matrix": [
+    [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  ],
+  "model_file": "models/kws_model_abhinav.keras",
+  "test_data": "held-out original recordings from abhinav",
+  "limitation": "Evaluates held-out recordings from one speaker; does not establish generalization to other speakers."
+}
